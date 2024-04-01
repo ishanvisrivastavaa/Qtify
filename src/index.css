@@ -1,0 +1,19 @@
+:root {
+  --css-primary: #34c94b;
+  --css-black: black;
+  --css-white: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
