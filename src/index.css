@@ -4,16 +4,30 @@
   --css-white: white;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
+html {
+  width: 100%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--css-black);
+  overflow-x: hidden; /* This can hide horizontal overflow, but check if it's necessary */
+  width: 100%; /* Ensure body takes full width */
+}
+
+/* Ensure that all elements have box-sizing set to border-box */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* Resetting margin for all elements */
 * {
   margin: 0;
+}
+
+/* Adjust styles for your navbar if necessary */
+.navbar {
+  width: 100%; /* Make sure navbar takes full width */
 }
